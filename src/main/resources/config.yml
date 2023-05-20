@@ -1,0 +1,26 @@
+#Thank you for your download our plugin
+#This plugin made by HeavenMine Team
+#Discord: https://discord.gg/heavenmine
+#If you have any questions please go to discord and create tickets :D
+
+version: 1.0.0
+
+prefix: "&6[HMEasyCore] "
+
+license:
+  key: "LICENSE_KEY"
+  use-hm-license: false
+
+storage:
+  type: yaml #yaml or mysql
+  host: localhost
+  port: 3306
+  username: root
+  password:
+  dbname: database
+
+home:
+  default: 2 #player has hmezcore.home.multihome.default permission can save 2 home
+  vip: 3 #player has hmezcore.home.multihome.vip permission can save 3 home
+  pre: 4
+  mvp: 5

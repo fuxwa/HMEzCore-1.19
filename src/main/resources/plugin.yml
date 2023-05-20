@@ -1,0 +1,56 @@
+name: HMEasyCore
+version: '${project.version}'
+main: net.heavenmine.hmezcore.Main
+api-version: 1.19
+authors: [ FuxWa ]
+description: This plugin made by HeavenMine Team
+website: heavenmine.net
+commands:
+  gm:
+    description: Change your game mode
+  broadcast:
+    description: Send massage to all player !
+    aliases:
+      - bc
+  feed:
+    description: Feed a player
+  heal:
+    description: Heal a player
+  ec:
+    description: Open enderchest
+  inventory:
+    description: Open inventory
+    aliases:
+      - inv
+  god:
+    description: Enable god mode
+  home:
+    description: Home command
+    aliases:
+      - sethome
+  warps:
+    description: Warps command
+    aliases:
+      - warp
+  setwarp:
+    description: Set a new warp
+  delwarp:
+    description: Delete a warp
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set new location to spawn
+  back:
+    description: Back to your last location
+  tp:
+    description: Teleport to other player
+  tphere:
+    description: Teleport other player to your location
+  tpa:
+    description: Send request teleport to other player
+  tpahere:
+    description: Send request teleport other player to your location
+  tpaccept:
+    description: Accept request teleport other player to your location
+  tpadeny:
+    description: Deny request teleport other player to your location
